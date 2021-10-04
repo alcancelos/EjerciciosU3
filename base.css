@@ -36,7 +36,7 @@ aside {
 	float: right;
 	width: 190px;
 }
-/* Pantallas menores a 800pixels */
+/* Pantallas menores a 800 pixels */
 @media screen and (max-width: 799px) {
 
 /* Ajusto el contenedor al 100% */
