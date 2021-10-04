@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	color: #000;
+	background: #332F29;
+	font-size:100%;
+}
+#contenedor {
+	width: 800px;
+	background: #8FA68E;
+	margin-right:auto;
+	margin-left:auto;
+	overflow: hidden;
+}
+nav {
+	background: #CC3910;
+	float: left;
+	width: 160px;
+}
+ul {
+	list-style-type:none;
+}
+a {
+	color:#F1F2C0;
+	text-decoration: none;
+}
+section {
+	background: #F1F2C0;
+	float: left;
+	margin: 0 0 0 25px;
+	width: 400px;
+}
+aside {
+	background: #CCC59E;
+	float: right;
+	width: 190px;
+}
+/* Pantallas menores a 800pixels */
+@media screen and (max-width: 799px) {
+
+/* Ajusto el contenedor al 100% */
+#contenedor {
+	width: 100%;
+	background: #8FA68E;
+	margin-right:auto;
+	margin-left:auto;
+	overflow: hidden;
+}
+/* Ajusto el Nav al 100%, cambio el color y agrego un borde inferior */
+nav {
+	background: #ffd45f;
+	width: 100%;
+	border-bottom: solid 1px black;
+	
+}
+
+/* Cambio el color de los links */
+a {
+	color:#070707;
+	text-decoration: none;
+}
+
+/* Cambio el color de la sextion, los margenes
+ajusto el ancho al 100%, agrego el borde inferior
+y quito el float. */
+section {
+	background: #F1F2C0;
+	margin: 0;
+	width: 100%;
+	border-bottom: solid 1px black;
+	float: none ;
+	/* Agrego un padding para que no quede pegado a los bordes */
+	padding: 5px;
+}
+/* Ajusto el aside, ancho en porcentaje, padding y quito el float. */
+aside {
+	background: #CCC59E;
+	width: 100%;
+	padding: 5px;
+	float: none ;
+}
+
+/*Espaciado de los links de la lista*/
+ul li{
+	margin: 10px;
+}
+}
